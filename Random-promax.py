@@ -48,15 +48,6 @@ logo = """'
 '\x1b[1;96m'   WAP NUMBER  ||   0531382117           
 '\x1b[1;91m' ༄Mr𝙧᭄•─────────────────•༄RAKIB𝙧᭄
 """
-dec="1"
-server="1"
-
-
-rsauser = ''Mozilla/5.0 (Linux; Android 11; vivo 1901 Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.69 Mobile Safari/537.36[FBAN/EMA;FBLC/en_GB;FBAV/315.0.0.18.109;]"
-header= {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent":rsauser, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
-reload(sys)
-sys.setdefaultencoding('utf8')
-
 
 
 fuck=[]
